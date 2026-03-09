@@ -18,6 +18,7 @@ const ClickEvents = () => {
         <button onClick={() => alert(`Hey! ${firtName}`)}>Click Me</button>
 
     </div>
+    
   )
 }
 
