@@ -5,6 +5,8 @@ import ClickEvents from './Components/ClickEvents';
 import States from './Components/ClassBased/States';
 import { PropsFunctional } from './Components/FuntionalBased/PropsFunctional';
 import PropsClass from './Components/ClassBased/PropsClass';
+import GetInputData from './Components/FuntionalBased/GetInputData';
+import HideToggleButton from './Components/FuntionalBased/HideToggleButton';
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
 
     {/* <PropsFunctional name='Fuzail' email = "fuzail12@gmail.com" pno = '23545346543'/> */}
 
-    <PropsClass name='Fuzail' />
+    {/* <PropsClass name='Fuzail' /> */}
+    {/* <GetInputData/> */}
+    <HideToggleButton/>
     </div>
   );
 }
