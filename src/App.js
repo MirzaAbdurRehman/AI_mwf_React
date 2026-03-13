@@ -7,6 +7,8 @@ import { PropsFunctional } from './Components/FuntionalBased/PropsFunctional';
 import PropsClass from './Components/ClassBased/PropsClass';
 import GetInputData from './Components/FuntionalBased/GetInputData';
 import HideToggleButton from './Components/FuntionalBased/HideToggleButton';
+import FormHandling from './Components/FuntionalBased/FormHandling';
+import FormValidation from './Components/FuntionalBased/FormValidation';
 
 
 function App() {
@@ -23,7 +25,10 @@ function App() {
 
     {/* <PropsClass name='Fuzail' /> */}
     {/* <GetInputData/> */}
-    <HideToggleButton/>
+    {/* <HideToggleButton/> */}
+    {/* <FormHandling/> */}
+
+    <FormValidation/>
     </div>
   );
 }
