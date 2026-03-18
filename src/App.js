@@ -9,6 +9,10 @@ import GetInputData from './Components/FuntionalBased/GetInputData';
 import HideToggleButton from './Components/FuntionalBased/HideToggleButton';
 import FormHandling from './Components/FuntionalBased/FormHandling';
 import FormValidation from './Components/FuntionalBased/FormValidation';
+import AllComponentsDemo from './Components/MUI/FirstComponent';
+import ProfileDashboard from './Components/MUI/SecondComponent';
+import FeedbackDemo from './Components/MUI/Feedback';
+import SurfacesDemo from './Components/MUI/Surfaces';
 
 
 function App() {
@@ -28,7 +32,8 @@ function App() {
     {/* <HideToggleButton/> */}
     {/* <FormHandling/> */}
 
-    <FormValidation/>
+    {/* <FormValidation/> */}
+    <SurfacesDemo/>
     </div>
   );
 }
