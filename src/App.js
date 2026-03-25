@@ -12,7 +12,10 @@ import FormValidation from './Components/FuntionalBased/FormValidation';
 import AllComponentsDemo from './Components/MUI/FirstComponent';
 import ProfileDashboard from './Components/MUI/SecondComponent';
 import FeedbackDemo from './Components/MUI/Feedback';
-import SurfacesDemo from './Components/MUI/Surfaces';
+import SurfacesDemo from './Components/MUI/Pagination';
+import LayoutDemo from './Components/MUI/Layout';
+import QuizApp from './Components/MUI/Quiz';
+
 
 
 function App() {
@@ -33,7 +36,7 @@ function App() {
     {/* <FormHandling/> */}
 
     {/* <FormValidation/> */}
-    <SurfacesDemo/>
+    <QuizApp/>
     </div>
   );
 }
