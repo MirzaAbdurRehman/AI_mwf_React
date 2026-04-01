@@ -15,6 +15,9 @@ import FeedbackDemo from './Components/MUI/Feedback';
 import SurfacesDemo from './Components/MUI/Pagination';
 import LayoutDemo from './Components/MUI/Layout';
 import QuizApp from './Components/MUI/Quiz';
+import LifeCycle from './Components/LifeCycleFunction/LifeCycle';
+import Search from './Components/LifeCycleFunction/Search';
+import GetApi from './ApiFetchData/GetApi';
 
 
 
@@ -36,7 +39,7 @@ function App() {
     {/* <FormHandling/> */}
 
     {/* <FormValidation/> */}
-    <QuizApp/>
+    <GetApi/>
     </div>
   );
 }
