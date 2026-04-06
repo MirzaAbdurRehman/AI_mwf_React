@@ -18,6 +18,8 @@ import QuizApp from './Components/MUI/Quiz';
 import LifeCycle from './Components/LifeCycleFunction/LifeCycle';
 import Search from './Components/LifeCycleFunction/Search';
 import GetApi from './ApiFetchData/GetApi';
+import UseMemos from './Components/FuntionalBased/UseMemo';
+import Parent from './Components/ClassBased/PureComp';
 
 
 
@@ -39,7 +41,11 @@ function App() {
     {/* <FormHandling/> */}
 
     {/* <FormValidation/> */}
-    <GetApi/>
+    {/* <GetApi/> */}
+
+    {/* <UseMemos/> */}
+
+    <Parent/>
     </div>
   );
 }
